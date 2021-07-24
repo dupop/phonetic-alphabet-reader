@@ -46,7 +46,7 @@ namespace SpelovanjeSlova
                 
             }
 
-            PoljeZaUnosTeksta.asd = spelledOutput.ToString();
+            PoljeZaUnosTeksta.Text = spelledOutput.ToString();
         }
 
 
