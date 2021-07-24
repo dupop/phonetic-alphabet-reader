@@ -38,7 +38,6 @@ namespace SpelovanjeSlova
                 }
                 else
                 {
-                    spelledOutput.Append((char.IsUpper(letter) ? "veliko" : "malo") + " ");
                     spelledOutput.Append(appropriateWord.Substring(2) + " ");
                 }
                 
