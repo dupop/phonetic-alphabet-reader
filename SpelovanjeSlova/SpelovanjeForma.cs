@@ -27,9 +27,9 @@ namespace SpelovanjeSlova
 
             foreach (char letter in userInput)
             {
-                //TODO: naci nazive interpunkcija automatski?
-                //TODO: da ima opciju da izgovori sadrzaj klipborda na npr Shift F1 (global hot key)
-                //TODO: 
+                //TODO: Find name of interpunction characters automaticlly?
+                //TODO: Add feature to read clipboard content with Shift F1 (global hot key)
+                 
 
                 string appropriateWord = AlphabetDictionary.Where(s => string.Equals(s[0].ToString(), letter.ToString(), StringComparison.OrdinalIgnoreCase)).FirstOrDefault();
                 if(appropriateWord == null)
@@ -46,7 +46,7 @@ namespace SpelovanjeSlova
                 
             }
 
-            PoljeZaUnosTeksta.Text = spelledOutput.ToString();
+            PoljeZaUnosTeksta.asd = spelledOutput.ToString();
         }
 
 
